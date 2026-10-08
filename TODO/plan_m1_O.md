@@ -4,7 +4,7 @@
 
 ## Semaine 1 : Accueil à l'ENS
 
-### mardi 13 octobre
+### Mardi 13 octobre
 
 * Accueil par Éric dans le hall de l'ENS à 9 h 30 (tel Eric :06 88 88 93 13)
 * 14H00 : Distantiel ([lien visio](https://bbb.fdn.fr/rooms/tut-6co-f6f-duq/join)) - Présentation générale des différentes missions 
@@ -15,7 +15,9 @@
         * Mesure RF de la permittivité -> sonde
     * gestion des commandes, ....
 
-### mercredi 14 - jeudi 15 octobre
+### Mercredi 14 - Jeudi 15 octobre
+
+**Plan détaillé : dans le répertoire TODO - A Venir**
 
 * Installation
 * Prise en main du VNA, 
@@ -23,8 +25,10 @@
 
 ### Vendredi 16 octobre
 
-* Matin : préparation de la réunion hebdomadaire
-* Après-midi (14 h) : réunion hebdomadaire, Distantiel ([lien visio](https://bbb.fdn.fr/rooms/tut-6co-f6f-duq/join)) 
+* Matin : préparation de la réunion hebdomadaire (template disponible dans reports_M1/template) 
+* Après-midi (14H00 - 15H00) : réunion hebdomadaire, Distantiel ([lien visio](https://bbb.fdn.fr/rooms/tut-6co-f6f-duq/join)) 
+
+**Livrable : Rapport disponible dans le répertoire reports_M1 une heure avant la réunion)**
 
 ## Semaine 2 : Campagne de mesure 1 : VNA
 
