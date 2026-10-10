@@ -1,0 +1,23 @@
+/*-- scss:defaults --*/
+$body-bg: #ffffff;
+$link-color: #5b9bd5;
+$presentation-heading-color: #5b9bd5;
+$presentation-heading-font-weight: 700;
+$presentation-font-size-root: 30px;
+$presentation-heading-font: "Noto Sans", "Open Sans", sans-serif;
+$font-family-sans-serif: "Noto Sans", "Open Sans", sans-serif;
+
+/*-- scss:rules --*/
+.reveal h2 { font-size: 1.15em; background:#dce6f5; padding:.25em .6em; text-align:left; margin-bottom:.6em; }
+.reveal .title-slide h1 { color:#5b9bd5; background:#deebf7; border:3px solid #bdd7ee; padding:.4em; }
+.reveal .authors { font-style: italic; text-align:center; font-size:.7em; }
+.reveal .box-orange { background:#f8cbad; padding:.3em .6em; text-align:center; border-radius:3px; font-size:.8em; }
+.reveal .box-green  { background:#e2efda; padding:.3em .6em; border-radius:3px; font-size:.75em; }
+.reveal .box-blue   { background:#deebf7; padding:.3em .6em; border-radius:3px; font-size:.8em; }
+.reveal .orange { color:#ed7d31; font-weight:700; }
+.reveal .blue { color:#5b9bd5; font-weight:700; }
+.reveal .small { font-size:.6em; }
+.reveal .biblio { background:#d9d9d9; padding:.5em .8em; font-size:.45em; text-align:justify; }
+.reveal .biblio p { margin:.4em 0; }
+.reveal figure figcaption { font-size:.55em; }
+.reveal img { margin:.1em auto; }
