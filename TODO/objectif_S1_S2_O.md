@@ -555,7 +555,7 @@ Les conditions suivantes doivent être imposées :
 | Terminaisons | Charges adaptées de précision |
 | Fréquence min. | 2 GHz |
 | Fréquence max. | 18 GHz |
-| Nombre de points | 2001 |
+| Nombre de points | 8001 |
 
 #### Démarche
 
