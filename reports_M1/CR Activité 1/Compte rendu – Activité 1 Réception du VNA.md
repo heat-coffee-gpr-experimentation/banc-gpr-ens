@@ -45,7 +45,7 @@ Trois décisions sont possibles :
 - **NOK** : dommage ou élément manquant bloquant l’installation ;
 - **Réserve** : anomalie mineure documentée et transmise au fournisseur.
 
-**Décision retenue **** ****:**** **OK
+**Décision retenue** **:** **OK**
 
 **Justification :** L'appareil n'as pas de déformation, le carton est bien conforme au bon de commande et aucune anomalie a été detecté.
 
@@ -75,11 +75,11 @@ Trois décisions sont possibles :
 | Réglage | Valeur utilisée | Chemin dans le menu |
 | --- | --- | --- |
 | Preset | Fait | Bouton Vert de l'appareil nommé "**Preset**"se trouvant dans l'onglet **Syst****è****me** |
-| Fréquence de début | 2 GHz | Bouton** Start**** **de l'appareil  l'onglet **S****t****i****m****u****l****u****s** |
-| Fréquence de fin | 18 GHz | Bouton** S****t****o****p**** **de l'appareil  l'onglet **Stimulus** |
-| Nombre de points | 4001 | Bouton** S****w****e****e****p**** **de l'appareil  l'onglet **C****ha****n****n****e****l** |
-| IFBW | 1 kHz | Bouton** ****P****OWE****R**** ****B****V**** ****A****v****g**** **de l'appareil  l'onglet **Channel**** **puis selectionner l'onglet** ****B****a****nd****-****w****ith** |
-| Puissance source | 0 dBm | Bouton** POWER BV Avg **de l'appareil  l'onglet **Channel** |
+| Fréquence de début | 2 GHz | Bouton **Start** de l'appareil  l'onglet **Stimulus** |
+| Fréquence de fin | 18 GHz | Bouton **STOP** de l'appareil  l'onglet **Stimulus** |
+| Nombre de points | 8001 | Bouton **Sweep** de l'appareil  l'onglet **Channel** |
+| IFBW | 1 kHz | Bouton **POWER BV AVG** de l'appareil  l'onglet Channel puis selectionner l'onglet **Bandwith** |
+| Puissance source | 0 dBm | Bouton **POWER BV AVG** de l'appareil  l'onglet **Channel** |
 
 ### 3.2 Notions de canal, trace, paramètre
 
@@ -96,32 +96,31 @@ Le premier indice est le port où l’on **mesure**, le second est le port où l
 
 ### 3.3 Paramètres et formats d’affichage
 
-Paramètres affichés : S11, S21, S12, S22, pour ce faire il faut sélectionner le bouton **MEAS**** **dans l'onglet** ****T****r****a****c****e**** **puis sélectionner le paramètre** ****S**** **voulue.\
+Paramètres affichés : S11, S21, S12, S22, pour ce faire il faut sélectionner le bouton **MEAS** dans l'onglet **TRACE** puis sélectionner le paramètre **S** voulue.\
 \
- Si on veut voir plusieurs paramètre a l’écran (ex S11 et S22) il faut allez dans l'onglet **Trace **puis **T****race ****config**** **et sélectionner** ****A****d****d**** ****T****r****a****c****e**** ****+**** d****i****a****g****r****am**** **
+ Si on veut voir plusieurs paramètre a l’écran (ex S11 et S22) il faut allez dans l'onglet **Trace** puis **Trace config** et sélectionner **Add Trace + diagram**
 
 | Format d’affichage | Capture d'écran | Chemin dans le menu |
 | --- | --- | --- |
-| Magnitude (dB) | dB mag.png | **T****r****ace**** ****-****-****-****>**** ****Format ---> dB Mag** |
-| Phase |  Phase et Unwr .png  | **Trace ---> ****Format ---> ****P****ha****s****e** |
-| Phase déroulée |  | **Trace --->**** ****Format ****--->** **U****n****w****r**** ****P****h****a****s****e** |
-| Diagramme de Smith | \
-SWR et Smith.png  | **Trace --->**** ****Format ---> ****S****m****i****t****h** |
-| ROS (SWR) |  | **Trace --->**** ****Format ---> ****S****W****R** |
-| Affichage polaire |  Polar & Delay.png  | **Trace --->**** ****Format ---> ****P****o****l****a****r** |
-| Retard de groupe |  | **Trace --->**** ****Format ---> ****D****e****lay** |
+| Magnitude (dB) | dB mag.png | **Trace --->Format ---> dB Mag** |
+| Phase |  Phase et Unwr .png  | **Trace ---> Format ---> Phase** |
+| Phase déroulée |  | **Trace ---> Format ---> Unwr PHASE** |
+| Diagramme de Smith |SWR et Smith.png  | **Trace ---> Format ---> Smith**|
+| ROS (SWR) |  | **Trace ---> Format ---> SWR**|
+| Affichage polaire |  Polar & Delay.png  | **Trace ---> Format ---> POLAR** |
+| Retard de groupe |  | **Trace ---> Format ---> Delay** |
 
 ### 3.4 Marqueurs\
 
 
-Paramètres affichés : j'ai afficher un S11 en format dB mag et j'ai placer plusieurs marqueur, le premier se trouve a la fréquence 16 GHz, le second est un marqueur delta à 10 GHz, le troisième est un marqueur qui affiche le maximum et le dernier et un marqueur minimum&#32;
+Paramètres affichés : j'ai afficher un S11 en format dB mag et j'ai placer plusieurs marqueur, le premier se trouve a la fréquence 16 GHz, le second est un marqueur delta à 10 GHz, le troisième est un marqueur qui affiche le maximum et le dernier et un marqueur minimum
 
 | Action | Résultat | Chemin dans le menu | Capture d'écran |
 | --- | --- | --- | --- |
-| Marqueur placé à f = 16 GHz | Valeur :  - 17.7 dB | **Trace ---> ****M****a****r****k****eur****s****---> ****M****k****r1** | Mark1.png |
-| Marqueur delta (référence : 16 GHz) | Δf = -6 GHz ; Δ dB = -3.4 dB | **Trace ---> Markeurs---> Mkr1**** ****---> ****D****e****lta**** ****m****o****d****e ****ON** | MarkDelta.png |
-| Recherche du maximum | f = 15 GHz ; valeur =  -15.9 dB | **Trace ---> Markeurs---> Mkr**** ****s****e****a****r****c****h**** ****---> ****M****a****x** | MarkMax.png |
-| Recherche du minimum | f = 19.4 GHz ; valeur = -33 dB | **Trace ---> Markeurs---> Mkr search ---> M****i****n** | Markmin.png |
+| Marqueur placé à f = 16 GHz | Valeur :  - 17.7 dB | **Trace  ---> Markeurs ---> Mkr1** | Mark1.png |
+| Marqueur delta (référence : 16 GHz) | Δf = -6 GHz ; Δ dB = -3.4 dB | **Trace ---> Markeurs---> Mkr1 ---> Delta mod ON** | MarkDelta.png |
+| Recherche du maximum | f = 15 GHz ; valeur =  -15.9 dB | **Trace ---> Markeurs---> Mkr search---> Max** | MarkMax.png |
+| Recherche du minimum | f = 19.4 GHz ; valeur = -33 dB | **Trace ---> Markeurs---> Mkr search ---> Min** | Markmin.png |
 
 ---
 
@@ -145,7 +144,7 @@ Paramètres affichés : j'ai afficher un S11 en format dB mag et j'ai placer plu
 
 **Objectif :** vérifier que la chaîne de transmission entre les deux ports fonctionne.
 
-**Montage :** `Port 1 ───`` ``thru ─── câble de test ───`` ``thru ───`` ``Port 2`
+**Montage :** `Port 1 ───thru ─── câble de test ───thru ───Port 2`
 
 | Observation attendue | Observation |
 | --- | --- |
@@ -188,6 +187,7 @@ Conclusion T2 :**  La mesure de réflexion est cohérente avec une charge 50 Ω.
 | T3 – Court-circuit | OK | il détecte bien en format SMITH les cour-circuit |
 | T4 – Comparaison des ports | OK | il n'a pas de grand écart entre le port 1 et 2 malgré un charge et un câble différent&#32; |
 
-**Le VNA est-il apte à passer à l’étape de calibration ?**&#32;
 
-Oui le VNA peut passer à l’étape suivante de calibration&#32;
+**Le VNA est-il apte à passer à l’étape de calibration ?**
+
+Oui le VNA peut passer à l’étape suivante de calibration
